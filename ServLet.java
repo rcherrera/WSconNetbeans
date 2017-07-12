@@ -16,7 +16,7 @@ import pckClient.TasaCambioWS_Service;
 
 /**
  *
- * @author Administrador
+ * @author Roberto Herrera
  */
 @WebServlet(urlPatterns = {"/ClienteServlet"})
 public class ClienteServlet extends HttpServlet {
@@ -48,7 +48,7 @@ public class ClienteServlet extends HttpServlet {
             out.println("</body>");
             out.println("</html>");
             //simulacion
-            double monto=100;
+            double monto=15;
             out.println("cambiar de "+ monto +" Dolares a Quetzales : Q."+ dolaresQuetzales(monto) );
         }
     }
